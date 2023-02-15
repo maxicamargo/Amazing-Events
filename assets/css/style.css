@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header_sup {
+    background: rgb(78, 78, 78);
+    padding: 10px;
+}
+
+.header_inf {
+    background: rgb(165, 164, 164);
+}
+
+/*Mobile (360 x 740) */
+
+.header_img {
+    width: 100%;
+    padding: 5px;
+}
+
+.header_nav>.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_inf {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 5px 10px;
+}
+
+.header_inf_img {
+    width: 1rem;
+    padding-top: 5px;
+}
+
+.header_inf>a{
+    padding-top: 8px;
+}
+
+.header_inf>h1 {
+    margin-top: 10px
+}
+
+.main_contact{
+    margin: 2rem;
+    padding-bottom: 10px;
+}
+
+.main_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_details{
+    margin: 10px 110px
+}
+
+
+
+
+
+footer {
+    background: rgb(165, 164, 164);
+    text-align: center;
+    padding: 2px 10px;
+
+
+}
+
+.footer_izq {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    padding-top: 5px;
+
+}
+
+.footer_img {
+    width: 2rem;
+}
+
+.footer_der>p {
+    padding-top: 15px;
+}
+
+/*Tablet  (820 x 1180)*/
+@media only screen and (min-width: 700px) {
+    .header_sup {
+        display: flex;
+        align-items: center;
+    }
+
+    .header_logo{
+        width: 30%;
+        padding: 2rem;
+    }
+
+    .header_nav>.nav{
+        flex-direction: row;
+        gap: 0.3rem;
+    }
+
+    .main_form_izq{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    .main_form_der{
+        padding: 0 80px;
+    }
+
+
+    main>.main_contact{
+        width: 50%;
+        margin: 2rem auto;
+    }
+
+    .main_contact>.btn{
+        text-align: right;
+    }
+    
+    
+
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    .footer_img {
+        width: 3rem;
+    }
+}
+
+
+
+/*Monitor (1400 x 1218) */
+@media only screen and (min-width: 1200px) {
+    .header_sup{
+        justify-content: space-between;
+    }
+    
+    
+    .header_nav>.nav{
+        padding-right: 2rem;
+        gap: 1rem;
+    }
+
+    .main_form{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+    }
+
+
+    main>.main_contact{
+        width: 40%;
+    }
+
+
+    #details_img{
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+
+
+}
