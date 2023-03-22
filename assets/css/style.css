@@ -51,6 +51,25 @@
     margin-top: 10px
 }
 
+
+/*Configuracion filters*/
+.main_form_izq {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.main_form_izq .form-check {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mensaje{
+    text-align: center;
+}
+
 .main_contact{
     margin: 2rem;
     padding-bottom: 10px;
